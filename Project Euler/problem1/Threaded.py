@@ -1,8 +1,13 @@
-""" This is a refined implementation of project Euler problem number 1 titled Multiples of 3 and 5
-The problem has been solved without multi threading where this implementation aims at expanding the auther's knowledge with multi threading aspect
+# @Author: Turki Alrifaie
+# @Date:   2018-11-29T12:34:26-05:00
+# @Email:  alrifaie.t@husky.neu.edu
+# @Filename: Threaded.py
+# @Last modified by:   Turki Alrifaie
+# @Last modified time: 2018-11-29T13:16:01-05:00
 
-Author: Turki Alrifaie
-Created on: 29-11-2018 11:13
+"""
+This is a refined implementation of project Euler problem number 1 titled Multiples of 3 and 5
+The problem has been solved without multi threading where this implementation aims at expanding the auther's knowledge with multi threading aspect
 """
 import threading
 # global variable to save the sum
