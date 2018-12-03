@@ -1,9 +1,9 @@
 # @Author: Turki Alrifaie
 # @Date:   2018-11-29T12:58:23-05:00
 # @Email:  alrifaie.t@husky.neu.edu
-# @Filename: test.py
-# @Last modified by:   Turki Alrifaie
-# @Last modified time: 2018-11-29T14:22:26-05:00
+# @Filename: basic.py
+# @Last modified by:   Turki A Alrifaie
+# @Last modified time: 2018-12-03T11:43:13-05:00
 
 def evennumberSum():
     global total
@@ -36,5 +36,5 @@ def evennumberSum():
 
 
 if __name__ == "__main__":
-    evennumberSum()
+    evennumberSum() #run the program
     print("The final sum is {0}".format(total))
