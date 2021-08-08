@@ -10,4 +10,4 @@ Silver = np.array([17, 28, 25, 28, 8, 14, 11])
 Bronze = np.array([19, 22, 32, 29, 7, 17, 14])
 
 high_gold = np.argmax(Gold)
-print (country[high_gold])
+print(country[high_gold])
