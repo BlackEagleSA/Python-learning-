@@ -16,3 +16,4 @@ twenty = np.where(Gold > 20)
 
 for i in twenty:
     print(country[i])
+    
