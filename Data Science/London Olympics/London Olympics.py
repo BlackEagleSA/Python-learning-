@@ -16,4 +16,8 @@ twenty = np.where(Gold > 20)
 
 for i in twenty:
     print(country[i])
-    
+
+for i in country:
+    j = np.where(country == i)
+    sum = Gold[j] + Silver[j] + Bronze[j]
+    print(i, int(Gold[j]), int(sum))
