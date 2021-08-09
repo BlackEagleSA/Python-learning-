@@ -10,4 +10,13 @@ Silver = np.array([17, 28, 25, 28, 8, 14, 11])
 Bronze = np.array([19, 22, 32, 29, 7, 17, 14])
 
 high_gold = np.argmax(Gold)
-print(country[high_gold])
+print("Country with highest gold medal is: " + country[high_gold])
+
+twenty = np.array([])
+
+for i in Gold:
+    if Gold[i] > 20: 
+        twenty = np.append(i)
+
+for i in twenty:
+    print(country[i])
